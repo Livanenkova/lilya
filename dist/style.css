@@ -1,0 +1,44 @@
+body {
+  background-color: #000000;
+}
+
+@media (max-width: 767px) {
+  .wrapper {
+    height: 715px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50%;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .img-saw {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    box-sizing: border-box;
+  }
+
+  .main-button {
+    display: block;
+    box-sizing: border-box;
+    width: 146px;
+    height: 49px;
+    background-color: #C4C4C4;
+    text-align: center;
+    margin: auto;
+    font-size: 36px;
+    line-height: 36px;
+  }
+}
