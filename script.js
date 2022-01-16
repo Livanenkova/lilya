@@ -12,6 +12,8 @@ function createElement(tag, className) {
     const $containerMainBtn = document.querySelector('.container__main-button');
     const $mainButton = createElement('a','main-button');
     $containerMainBtn.appendChild($mainButton);
+    $mainButton.innerText = 'play';
+    $mainButton.setAttribute("href", "welcomepage.html");
   }
   
   setTimeout(showMainButton, 3000);
