@@ -1,4 +1,5 @@
 body {
+  font-family: Microsoft Himalaya;
   background-color: #000000;
 }
 
@@ -21,13 +22,12 @@ body {
     height: 50%;
     flex-direction: column;
     margin: auto;
+    margin-top: 326px;
   }
 
   .img-saw {
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    box-sizing: border-box;
+    width: 290px;
+    height: 161px;
   }
 
   .main-button {
@@ -40,5 +40,6 @@ body {
     margin: auto;
     font-size: 36px;
     line-height: 36px;
+    padding-top: 11px;
   }
 }
