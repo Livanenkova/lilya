@@ -10,7 +10,7 @@ body {
 @media (max-width: 767px) {
 
   .wrapper {
-    height: 715px;
+    height: 812px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -23,10 +23,9 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    height: 50%;
+    height: 100%;
     flex-direction: column;
-    margin: auto;
-    margin-top: 326px;
+    margin-top: 50%,
   }
 
   .img-saw {
@@ -47,6 +46,7 @@ body {
     font-size: 36px;
     line-height: 36px;
     padding-top: 11px;
+    margin-top: 100px;
   }
   
   
