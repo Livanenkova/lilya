@@ -5,21 +5,16 @@ function createElement(tag, className) {
   }
   return $tag;
 };
-
-  function playAudio() {
-    const audio = document.getElementById("myaudio");
-    audio.volume = 0.2;
-  }
   
 
 
   function showMainButton() {
+    console.log('успех')
     const $containerMainBtn = document.querySelector('.container__main-button');
     const $mainButton = createElement('a','main-button');
     $containerMainBtn.appendChild($mainButton);
     $mainButton.innerText = 'play';
     $mainButton.setAttribute("href", "welcomepage.html");
-
   }
-  playAudio()
+
   setTimeout(showMainButton, 3000);

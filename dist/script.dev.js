@@ -12,12 +12,8 @@ function createElement(tag, className) {
 
 ;
 
-function playAudio() {
-  var audio = document.getElementById("myaudio");
-  audio.volume = 0.2;
-}
-
 function showMainButton() {
+  console.log('успех');
   var $containerMainBtn = document.querySelector('.container__main-button');
   var $mainButton = createElement('a', 'main-button');
   $containerMainBtn.appendChild($mainButton);
@@ -25,5 +21,4 @@ function showMainButton() {
   $mainButton.setAttribute("href", "welcomepage.html");
 }
 
-playAudio();
 setTimeout(showMainButton, 3000);
