@@ -1,16 +1,18 @@
 $backgroundStartPage: #000000;
 $backgroundButton: #C4C4C4;
 $backgroundPage: #FFFFFF;
+$wpLink: #E5E5E5;
 
 body {
   font-family: Microsoft Himalaya;
-  background-color: $backgroundStartPage;
+  
 
 }
 
 @media (max-width: 767px) {
 
   .wrapper {
+    background-color: $backgroundStartPage;
     height: 812px;
     display: flex;
     flex-wrap: wrap;
@@ -50,7 +52,49 @@ body {
     padding-top: 5px;
     margin-top: 100px;
   }
+
+  container-wp {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    gap: 271px;
+    text-align: center;
+  }
+
+  .container__wp-link {
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: center;
+    align-items: center;
+    gap: 27px;
+  }
+
+
+  .wp-text {
+    display: block;
+    font-family: Microsoft Himalaya;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: $backgroundStartPage;
+    margin-bottom: 29px;
+    margin-top: 0px;
+  }
+
+  .wp-text::after {
+    top: 10px;
+  }
   
-  
+  .wp-link {
+    display: block;
+    background-color: $wpLink;
+    width: 119px;
+    height: 119px;
+    border-radius: 50%;
+  }
   
   }
