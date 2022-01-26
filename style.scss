@@ -104,5 +104,57 @@ body {
     border-radius: 50%;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
+
+  .page3-container {
+    margin-top: 100px;
+    text-align: center;
+    padding-left: 45px;
+    padding-right: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 95px;
+  }
+
+  .page3-container-middle{
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    width: 261px;
+    height: 181px;
+    text-align: center;
+  }
+
+  .page3-container-middle-text {
+    margin: auto;
+  }
+
+  .page-3__top-text {
+    font-family: Microsoft Himalaya;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+  }
+
+  .page3__middle-text {
+    display: block;
+  }
+
+  .page3-button {
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    box-sizing: border-box;
+    width: 146px;
+    height: 49px;
+    background-color: #C4C4C4;
+    text-align: center;
+    margin: auto;
+    font-size: 36px;
+    line-height: 36px;
+    padding-top: 5px;
+    margin-top: 100px;
+  }
   
   }
